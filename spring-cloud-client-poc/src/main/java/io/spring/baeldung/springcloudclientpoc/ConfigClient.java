@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigClient {
 
-    @Value("${configuration.projectName}")
+    @Value("${user.role}")
     String userRole;
 
     public static void main(String[] args) {
